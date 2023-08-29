@@ -4,6 +4,6 @@ float main()
 {
     float F, C;
     scanf("%f",&F);
-    C = (F-32)*(5/9);
+    C = (F-32)*5/9;
     printf("%f",C);
 }
