@@ -5,9 +5,9 @@ float main()
 {
     float R, C, D;
     printf("digite o valor em dolar: ");
-    scanf("%f",&D);
+    scanf("%f",&R);
     printf("digite o valor da cotacao: ");
     scanf("%f",&C);
-    R = C * D;
-    printf("o valor em real sera de: %f",R);
+    D = R/C;
+    printf("o valor em real sera de: %f",D);
 }
